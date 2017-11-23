@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=">
 
+    {% if page.use_math %}
+    {% include mathjax_support %}
+  {% endif %}
+
 <!-- Begin Jekyll SEO tag v2.3.0 -->
 <title>Slate theme | Slate is a theme for GitHub Pages.</title>
 <meta property="og:title" content="Slate theme" />
@@ -39,7 +43,7 @@
 <section id="main_content" class="inner">
 
 <h1 id="header-1"><a href="#header-1"></a>Overview</h1>
-$xx$
+
 <p> Millions of thousands of videos are uploaded on the Internet everyday over social network, <em>i.e.</em> Facebook and Instagram, and video website, $i.e.$ Youtube and Netflix. While some video sequences are very popular with millions of views or even more, others stays ``silent'' receiving no views. Even for a long view sequence, different video fragments (5 seconds long) and segments (5 minutes long) receive views with significant differences. This issues one open question: Can we predict the attractiveness of the video, specifically in the fine-grained level, even before it is uploaded. And how can we perform such attractiveness prediction. In this paper, we make the first attempt to address these two questions. To this end, we construct the first large-scale real-world video attractiveness dataset, namely fine-grained video attractiveness dataset (FVAD). The video sequences are collected from one leading video website with millions of thousands of viewers, which provides streaming media and video-on-demand online. Moreover, the viewers' behaviors associated with the collected video sequences are also crawled, such as the ``video views'', ``positions of fast forward and rewind'', and so on. The data of the ``video views'' is sampled with an interval of 5 seconds, reflecting the viewers' preference based on a large population, which is thus regarded to denote the video attractiveness at fine-grained level. To date, FVAD consists of 399 drama episodes with 316.6 hours ranging over 19 categories. Based on the constructed FVAD, we examine different models to predict the fine-grained video attractiveness based on the video content, specifically both the visual and audio contents. Experimental results demonstrate that both visual and audio contents produce promising results on the video attractiveness prediction. The constructed FVAD, which will be released publicly, is expected to advance the study of video attractiveness prediction.</p>
 
 <h2 id="header-2"><a href="#header-2"></a>Header 2</h2>
