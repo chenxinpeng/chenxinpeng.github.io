@@ -4,4 +4,3 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
 markdown: maruku
-use_math: true
