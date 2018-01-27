@@ -19,23 +19,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="585">
+              <caret line="39" column="191" lean-forward="false" selection-start-line="39" selection-start-column="191" selection-end-line="39" selection-end-column="191" />
               <folding>
-                <element signature="e#2226#2232#1" expanded="true" />
-                <element signature="e#2919#2925#1" expanded="true" />
-                <element signature="e#3532#3538#1" expanded="true" />
+                <element signature="e#2331#2337#1" expanded="true" />
+                <element signature="e#3024#3030#1" expanded="true" />
+                <element signature="e#3637#3643#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FVAD.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FVAD.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="86" lean-forward="false" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -177,12 +167,12 @@
       <workItem from="1512221381497" duration="2067000" />
       <workItem from="1512400503219" duration="6000" />
       <workItem from="1516066264335" duration="38000" />
-      <workItem from="1517059430483" duration="9279000" />
+      <workItem from="1517059430483" duration="9551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17368000" />
+    <option name="totallyTimeSpent" value="17640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1397" height="877" extended-state="0" />
@@ -318,6 +308,11 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/github.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FVAD.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -328,12 +323,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="585">
+          <caret line="39" column="191" lean-forward="false" selection-start-line="39" selection-start-column="191" selection-end-line="39" selection-end-column="191" />
           <folding>
-            <element signature="e#2226#2232#1" expanded="true" />
-            <element signature="e#2919#2925#1" expanded="true" />
-            <element signature="e#3532#3538#1" expanded="true" />
+            <element signature="e#2331#2337#1" expanded="true" />
+            <element signature="e#3024#3030#1" expanded="true" />
+            <element signature="e#3637#3643#1" expanded="true" />
           </folding>
         </state>
       </provider>
