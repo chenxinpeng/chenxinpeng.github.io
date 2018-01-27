@@ -19,12 +19,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="191" lean-forward="false" selection-start-line="39" selection-start-column="191" selection-end-line="39" selection-end-column="191" />
+            <state relative-caret-position="436">
+              <caret line="45" column="172" lean-forward="false" selection-start-line="45" selection-start-column="172" selection-end-line="45" selection-end-column="172" />
               <folding>
                 <element signature="e#2331#2337#1" expanded="true" />
-                <element signature="e#3024#3030#1" expanded="true" />
-                <element signature="e#3637#3643#1" expanded="true" />
+                <element signature="e#3027#3033#1" expanded="true" />
+                <element signature="e#3640#3646#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,12 +167,12 @@
       <workItem from="1512221381497" duration="2067000" />
       <workItem from="1512400503219" duration="6000" />
       <workItem from="1516066264335" duration="38000" />
-      <workItem from="1517059430483" duration="9551000" />
+      <workItem from="1517059430483" duration="9675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17640000" />
+    <option name="totallyTimeSpent" value="17764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1397" height="877" extended-state="0" />
@@ -323,12 +323,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="191" lean-forward="false" selection-start-line="39" selection-start-column="191" selection-end-line="39" selection-end-column="191" />
+        <state relative-caret-position="436">
+          <caret line="45" column="172" lean-forward="false" selection-start-line="45" selection-start-column="172" selection-end-line="45" selection-end-column="172" />
           <folding>
             <element signature="e#2331#2337#1" expanded="true" />
-            <element signature="e#3024#3030#1" expanded="true" />
-            <element signature="e#3637#3643#1" expanded="true" />
+            <element signature="e#3027#3033#1" expanded="true" />
+            <element signature="e#3640#3646#1" expanded="true" />
           </folding>
         </state>
       </provider>
