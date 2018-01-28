@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd25f217-4303-4c78-b235-d09ce99558db" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/chenxp.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/archive/fvad.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/FVAD.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,16 +20,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="45" column="172" lean-forward="false" selection-start-line="45" selection-start-column="172" selection-end-line="45" selection-end-column="172" />
+            <state relative-caret-position="-625">
+              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding>
-                <element signature="e#2331#2337#1" expanded="true" />
-                <element signature="e#3027#3033#1" expanded="true" />
-                <element signature="e#3640#3646#1" expanded="true" />
+                <element signature="e#2337#2343#1" expanded="true" />
+                <element signature="e#3033#3039#1" expanded="true" />
+                <element signature="e#3646#3652#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fvad.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/archive/fvad.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,9 +70,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/archive/SSD_ Signle Shot Detector 用于自然场景文字检测.html" />
         <option value="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/FVAD.html" />
         <option value="$PROJECT_DIR$/archive/notes_on_python_v2.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/FVAD.html" />
+        <option value="$PROJECT_DIR$/archive/FVAD.html" />
+        <option value="$PROJECT_DIR$/archive/fvad.html" />
       </list>
     </option>
   </component>
@@ -99,18 +115,7 @@
             <path>
               <item name="chenxinpeng.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="chenxinpeng.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chenxinpeng.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chenxinpeng.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chenxinpeng.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chenxinpeng.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="publication" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,6 +135,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/archive" />
       <recent name="$PROJECT_DIR$/publication" />
     </key>
   </component>
@@ -167,12 +173,12 @@
       <workItem from="1512221381497" duration="2067000" />
       <workItem from="1512400503219" duration="6000" />
       <workItem from="1516066264335" duration="38000" />
-      <workItem from="1517059430483" duration="9675000" />
+      <workItem from="1517059430483" duration="12862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17764000" />
+    <option name="totallyTimeSpent" value="20951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1397" height="877" extended-state="0" />
@@ -226,7 +232,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FVAD.html">
+    <entry file="file://$PROJECT_DIR$/archive/fvad.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="86" lean-forward="false" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
@@ -265,7 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.md" />
     <entry file="file://$PROJECT_DIR$/assets/css/jemdoc.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4885">
@@ -313,23 +318,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FVAD.html">
+    <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="86" lean-forward="false" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5790">
+          <caret line="386" column="16" lean-forward="false" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="45" column="172" lean-forward="false" selection-start-line="45" selection-start-column="172" selection-end-line="45" selection-end-column="172" />
+        <state relative-caret-position="-625">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <element signature="e#2331#2337#1" expanded="true" />
-            <element signature="e#3027#3033#1" expanded="true" />
-            <element signature="e#3640#3646#1" expanded="true" />
+            <element signature="e#2337#2343#1" expanded="true" />
+            <element signature="e#3033#3039#1" expanded="true" />
+            <element signature="e#3646#3652#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/fvad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
