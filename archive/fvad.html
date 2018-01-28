@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Fine-grained Video Attractiveness Prediction</title>
-    <link rel="stylesheet" href="../assets/css/jemdoc.css" , type="text/css" />
+    <link rel="stylesheet" href="../assets/css/jemdoc.css", type="text/css" />
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 </head>
 <body>
 <div id="layout-content">
@@ -16,11 +20,11 @@
     This phenomena leads to a challenging yet important problem,
     namely <b>fine-grained video attractiveness prediction</b>,
     which only relies on the video content to forecast video attractiveness at fine-grained levels,
-    specifically video segments of the length of 5 seconds in this paper. <br /><br />
+    specifically video segments of the length of \( 5 \) seconds in this paper. <br /><br />
     However, one major obstacle for such a challenging problem is that no suitable benchmark dataset currently exists.
     To this end, we construct the first fine-grained video attractiveness dataset (FVAD),
     which is collected from one of the most popular video websites, <a href="https://v.qq.com/">Tencent Video</a>.
-    In total, the constructed FVAD consists of <b>1,019</b> drama episodes with <b>780.6</b> hours covering different categories and a wide variety of video content.
+    In total, the constructed FVAD consists of <b>\(1019\)</b> drama episodes with <b>\(780.6\)</b> hours covering different categories and a wide variety of video content.
     Apart from the large amount of videos, hundreds of millions user behaviors while watching videos are also included,
     such as "view counts", "fast-forward", "fast-rewind", and so on, where "view counts" reflects the video attractiveness while other engagements capture the interactions between the viewers and videos.
     <ul>
@@ -34,8 +38,52 @@
     Experimental results demonstrate the effectiveness of our proposed sequential models on different visual and audio representations,
     the necessity of incorporating the two modalities, as well as the complementary behaviors of the sequential prediction models at different levels.
     As a side contribution, the FVAD dataset will be released to facilitate researchers to improve fine-grained video attractiveness prediction.
-    <h2>FVAD Construction</h2>
-    
+    <h2>FVAD Dataset</h2>
+    <h3>Dataset statistics</h3>
+    <ul>
+        <li>The statistics of our constructed FVAD.
+            The blue bars indicate the number of videos per TV series,
+            while the orange ones indicate the video attractiveness (view counts) in \( log_{10} \) domain.
+        </li>
+    </ul>
+    <div>
+        <table class="imgtable" align="center" valign="center">
+            <tr><td>
+                    <img src="../assets/images/fvad_video_statistics.png" alt="fvad_video_statistics" width="1000px" />
+            </td></tr>
+        </table>
+    </div>
+    <h3>Video attractiveness and engagements data</h3>
+    The other 9 types of  viewers' engagements with the video sequences while watching.
+    Also the view counts are also presented together with each engagement.
+    It can be observed that the view counts present different correlations with these 9 types of viewers' engagements. <br />
+    <ul>
+        <li>Exit: the number of viewers exiting the show</li>
+    </ul>
+    <ul>
+        <li>Start of Fast-Forward (FF): the number of viewers beginning FF</li>
+    </ul>
+    <ul>
+        <li>End of Fast-Forward: the number of viewers stopping FF</li>
+    </ul>
+    <ul>
+        <li>Start of Fast-Rewind (FR): the number of viewers beginning FR</li>
+    </ul>
+    <ul>
+        <li>End of Fast-Rewind: the number of viewers stopping FR</li>
+    </ul>
+    <ul>
+        <li>Bullet Screens: the number of bullet screens sent by viewers</li>
+    </ul>
+    <ul>
+        <li>Bullet Screen Likes: the number of  bullet screen likes of the viewers</li>
+    </ul>
+    <ul>
+        <li>Fast-Forward Skips: the number of skip times during FF</li>
+    </ul>
+    <ul>
+        <li>Fast-Rewind Skips: the number of skip times during FR</li>
+    </ul>
 </div>
 </body>
 </html>
