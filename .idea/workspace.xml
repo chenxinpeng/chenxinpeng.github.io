@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd25f217-4303-4c78-b235-d09ce99558db" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fd25f217-4303-4c78-b235-d09ce99558db" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -104,6 +102,12 @@
               <item name="chenxinpeng.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="chenxinpeng.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="archive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chenxinpeng.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chenxinpeng.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chenxinpeng.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -209,12 +213,12 @@
       <workItem from="1534739970568" duration="707000" />
       <workItem from="1534827641180" duration="820000" />
       <workItem from="1535426964937" duration="1225000" />
-      <workItem from="1535604004780" duration="622000" />
+      <workItem from="1535604004780" duration="711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56487000" />
+    <option name="totallyTimeSpent" value="56576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1397" height="877" extended-state="6" />
