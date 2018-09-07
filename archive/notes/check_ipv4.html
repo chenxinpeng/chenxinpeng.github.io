@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>check_ipv4</title></head>
+<body><p>编写一个函数, 判断一个字符串是否为 IPV4 的地址。</p>
+<pre><code class='language-python' lang='python'>&#39;&#39;&#39;
+    1.判断字符串是否形如: &#39;192.168.1.1&#39;
+
+   2.字符串两端含有空格视为合法ip，形如: &#39;192.168.1.1&#39;
+
+   3.字符串中间含有空格视为非法ip，形如: &#39;192.168. 1.2&#39;
+
+   4.字符串 &#39;0&#39; 开头视为不合法ip，形如: &#39;192.168.01.1&#39;
+
+   5.字符串 &#39;0.0.0.0&#39; 视为合法ip, &#39;0.0.0.1&#39; 也是
+&#39;&#39;&#39;
+
+def check_ip(ip):
+    ip_segs = ip.split(&#39;.&#39;)
+    if len(ip_segs) != 4:
+        return &#39;ILLEGAL&#39;
+    
+    ip_strip = ip.strip()
+    for item in ip_strip.split(&#39;.&#39;):
+        if item[0] == &#39; &#39;:
+            return &#39;ILLEGAL&#39;
+        if int(item) &lt; 0 or int(item) &gt; 255:
+            return &#39;ILLEGAL&#39;
+        if item[0] == &#39;0&#39; and len(item) != 1:
+            return &#39;ILLEGAL&#39;
+        
+    return &#39;LEGAL&#39;
+</code></pre>
+</body>
+</html>
