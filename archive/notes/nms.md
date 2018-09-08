@@ -17,7 +17,7 @@ def nms(score, x, y, w, h, thresh=0.5):
         i = order[0]
         
         # 保留该类剩余 box 中得分最高的一个
-        keep.append(i)
+        keep.append(i)# 都星，无所谓
         
         # 得到相交区域, 左上及右下
         tmp_x1 = np.maximum(x[i], x[order[1:]])
